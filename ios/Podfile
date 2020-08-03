@@ -5,7 +5,9 @@ platform :ios, '10.0'
 
 project 'letsgo632ios',
   'SalesDebug' => :debug,
-  'SalesRelease' => :release
+  'SalesRelease' => :release,
+  'MarketingDebug' => :debug,
+  'MarketingRelease' => :release
 
 target 'letsgo632ios' do
   config = use_native_modules!
