@@ -7,7 +7,9 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "ios-marketing": "npx react-native run-ios --simulator='iPhone 11 Pro Max' --scheme='Marketing' --configuration='MarketingDebug'",
+    "ios-sales": "npx react-native run-ios --simulator='iPhone 11 Pro Max' --scheme='Sales' --configuration='SalesDebug'"
   },
   "dependencies": {
     "react": "16.13.1",
